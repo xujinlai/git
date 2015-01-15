@@ -1,0 +1,1432 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>Git en un alojamiento externo | Learn Git</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.5.0">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+        
+    
+    
+    <link rel="next" href="../983eee8e25ebe992f9dea58c9467bbbd/e077e39a407e64590a639bb8e5db7ac8.html" />
+    
+    
+    <link rel="prev" href="../983eee8e25ebe992f9dea58c9467bbbd/97799e050b1f0381dcaf53617993dfbc.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-level="4.9" data-basepath=".." data-revision="1421330632122">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="1fd7d29355fb8aded4949da369c51801/README.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Personalizando Git
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="1fd7d29355fb8aded4949da369c51801/4744df785f32c879347dbf58c5b92e66.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/4744df785f32c879347dbf58c5b92e66.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Configuración de Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="1fd7d29355fb8aded4949da369c51801/a8cd98d429ffb76db6511616652c9e3f.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/a8cd98d429ffb76db6511616652c9e3f.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Atributos de Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="1fd7d29355fb8aded4949da369c51801/0ad1c49789b2219a9042a0efbf736d06.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/0ad1c49789b2219a9042a0efbf736d06.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         Puntos de enganche Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.4" data-path="1fd7d29355fb8aded4949da369c51801/b7d8d5650f400d3b5c21b11541f86395.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/b7d8d5650f400d3b5c21b11541f86395.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                         Un ejemplo de implantación de una determinada política en Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.5" data-path="1fd7d29355fb8aded4949da369c51801/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../1fd7d29355fb8aded4949da369c51801/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="ebc5c78476a212fc36cbe866ef2a2317/README.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Empezando
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="ebc5c78476a212fc36cbe866ef2a2317/37b56788c07a4ed6386aec336e11ce10.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/37b56788c07a4ed6386aec336e11ce10.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         Acerca del control de versiones
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="ebc5c78476a212fc36cbe866ef2a2317/617f4d6e5ff04f0e78cd31a37e2734aa.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/617f4d6e5ff04f0e78cd31a37e2734aa.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         Una breve historia de Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.3" data-path="ebc5c78476a212fc36cbe866ef2a2317/162c1981435606b72dbec5478581b340.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/162c1981435606b72dbec5478581b340.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                         Fundamentos de Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.4" data-path="ebc5c78476a212fc36cbe866ef2a2317/4feee2388fe0692492a6c7793ce61a82.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/4feee2388fe0692492a6c7793ce61a82.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                         Instalando Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.5" data-path="ebc5c78476a212fc36cbe866ef2a2317/d11d6bf50ecdbcd58594317b63570f1b.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/d11d6bf50ecdbcd58594317b63570f1b.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                         Configurando Git por primera vez
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.6" data-path="ebc5c78476a212fc36cbe866ef2a2317/c864db318ca80e42a3066a5704050d06.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/c864db318ca80e42a3066a5704050d06.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                         Obteniendo ayuda
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.7" data-path="ebc5c78476a212fc36cbe866ef2a2317/8332fbec31ac4a3cd9d819230e7a6087.html">
+            
+                
+                    <a href="../ebc5c78476a212fc36cbe866ef2a2317/8332fbec31ac4a3cd9d819230e7a6087.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                         Resumen
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="c9564801e915f15567d2f1705c5e3b67/README.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Ramificaciones en Git
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="c9564801e915f15567d2f1705c5e3b67/c828ec12fc8b302dce220c421042082b.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/c828ec12fc8b302dce220c421042082b.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         ¿Qué es una rama?
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="c9564801e915f15567d2f1705c5e3b67/1c12092ece05091a8192a14aaf812f49.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/1c12092ece05091a8192a14aaf812f49.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         Procedimientos básicos para ramificar y fusionar
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="c9564801e915f15567d2f1705c5e3b67/6abd06316d9dfcc54a0e5e39988ec90a.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/6abd06316d9dfcc54a0e5e39988ec90a.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         Gestión de ramificaciones
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.4" data-path="c9564801e915f15567d2f1705c5e3b67/a766984b75e9ed629d15becc9f320c18.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/a766984b75e9ed629d15becc9f320c18.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                         Flujos de trabajo ramificados
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5" data-path="c9564801e915f15567d2f1705c5e3b67/26d589927bc71e8387b3e855bea2dfcf.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/26d589927bc71e8387b3e855bea2dfcf.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                         Ramas Remotas
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.6" data-path="c9564801e915f15567d2f1705c5e3b67/8287609e0b0a205a81d7711ed8f8b4df.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/8287609e0b0a205a81d7711ed8f8b4df.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                         Reorganizando el trabajo realizado
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7" data-path="c9564801e915f15567d2f1705c5e3b67/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../c9564801e915f15567d2f1705c5e3b67/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="983eee8e25ebe992f9dea58c9467bbbd/README.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Git en un servidor
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="983eee8e25ebe992f9dea58c9467bbbd/818fb0209adb3f829a38471451dad04c.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/818fb0209adb3f829a38471451dad04c.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         Los Protocolos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="983eee8e25ebe992f9dea58c9467bbbd/68883fd0b0bfb8c02115bfad76867fd1.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/68883fd0b0bfb8c02115bfad76867fd1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         Poniendo Git en un Servidor
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.3" data-path="983eee8e25ebe992f9dea58c9467bbbd/784c1e39d19d28c2da1d8957aa04eb97.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/784c1e39d19d28c2da1d8957aa04eb97.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                         Generando tu clave pública SSH
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.4" data-path="983eee8e25ebe992f9dea58c9467bbbd/52696660ef491ff1b640c9ea21651936.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/52696660ef491ff1b640c9ea21651936.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         Preparando el servidor
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.5" data-path="983eee8e25ebe992f9dea58c9467bbbd/42610d8a2a64d4fc4689fe97a4aec9a1.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/42610d8a2a64d4fc4689fe97a4aec9a1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                         Acceso público
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.6" data-path="983eee8e25ebe992f9dea58c9467bbbd/cf0543c039db8fa75980f6673416db00.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/cf0543c039db8fa75980f6673416db00.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                         GitWeb
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.7" data-path="983eee8e25ebe992f9dea58c9467bbbd/dd767e39ff6f2caf159ca67273b5c8f7.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/dd767e39ff6f2caf159ca67273b5c8f7.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                         Gitosis
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.8" data-path="983eee8e25ebe992f9dea58c9467bbbd/97799e050b1f0381dcaf53617993dfbc.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/97799e050b1f0381dcaf53617993dfbc.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                         El demonio Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4.9" data-path="983eee8e25ebe992f9dea58c9467bbbd/8a8491c7b4ae53776c91640dcc7d42ea.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/8a8491c7b4ae53776c91640dcc7d42ea.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.</b>
+                        
+                         Git en un alojamiento externo
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.10" data-path="983eee8e25ebe992f9dea58c9467bbbd/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../983eee8e25ebe992f9dea58c9467bbbd/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.10.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="8af1e7c7a01fedad4facdec91f761c8e/README.html">
+            
+                
+                    <a href="../8af1e7c7a01fedad4facdec91f761c8e/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         Git en entornos distribuidos
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1" data-path="8af1e7c7a01fedad4facdec91f761c8e/895482bb67c1223e274f416698d96c7f.html">
+            
+                
+                    <a href="../8af1e7c7a01fedad4facdec91f761c8e/895482bb67c1223e274f416698d96c7f.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         Flujos de trabajo distribuidos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="8af1e7c7a01fedad4facdec91f761c8e/a4ab43328f4922229da5f7960523569a.html">
+            
+                
+                    <a href="../8af1e7c7a01fedad4facdec91f761c8e/a4ab43328f4922229da5f7960523569a.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                         Contribuyendo a un proyecto
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.3" data-path="8af1e7c7a01fedad4facdec91f761c8e/c172fd80a8bce29c6e9a34ccd64e877a.html">
+            
+                
+                    <a href="../8af1e7c7a01fedad4facdec91f761c8e/c172fd80a8bce29c6e9a34ccd64e877a.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                         Gestionando un proyecto
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4" data-path="8af1e7c7a01fedad4facdec91f761c8e/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../8af1e7c7a01fedad4facdec91f761c8e/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/README.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Las herramientas de Git
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="6.1" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/a3b5bb288b18b4b2df7a41417615a44c.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/a3b5bb288b18b4b2df7a41417615a44c.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                         Selección de confirmaciones de cambios concretas
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.2" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/94d7f9ae45ea2ef309312f51857717b7.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/94d7f9ae45ea2ef309312f51857717b7.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                         Preparación interactiva
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.3" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/32a6ef781f0e90145e9f46d4c230e29f.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/32a6ef781f0e90145e9f46d4c230e29f.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                         Guardado rápido provisional
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.4" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/7affc37fdee29dabe48b5dd613cc66aa.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/7affc37fdee29dabe48b5dd613cc66aa.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                         Reescribiendo la historia
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.5" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/dace3c2aa89a47aefe01d640875996dd.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/dace3c2aa89a47aefe01d640875996dd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                         Depuración con Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.6" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/22634612313c7d5001e297a59f1995c2.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/22634612313c7d5001e297a59f1995c2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                         Submódulos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.7" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/3fe5d68d435c5b4d8173a8d0d38edbc0.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/3fe5d68d435c5b4d8173a8d0d38edbc0.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.7.</b>
+                        
+                         Fusión de subárboles
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6.8" data-path="1cd0fd234b18b22cc200903ff5c6a3bb/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../1cd0fd234b18b22cc200903ff5c6a3bb/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.8.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7" data-path="162c1981435606b72dbec5478581b340/README.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                         Fundamentos de Git
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="7.1" data-path="162c1981435606b72dbec5478581b340/e7b265c4ac12e117b59674793d63a5b3.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/e7b265c4ac12e117b59674793d63a5b3.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                         Obteniendo un repositorio Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.2" data-path="162c1981435606b72dbec5478581b340/7edee39481cdf8b4ae4a78924fa8916d.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/7edee39481cdf8b4ae4a78924fa8916d.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                         Guardando cambios en el repositorio
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.3" data-path="162c1981435606b72dbec5478581b340/25a370e4d79a45caef90af75b5560bbd.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/25a370e4d79a45caef90af75b5560bbd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                         Viendo el histórico de confirmaciones
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.4" data-path="162c1981435606b72dbec5478581b340/59b4324df7ae2772dac8479207ec98a4.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/59b4324df7ae2772dac8479207ec98a4.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                         Deshaciendo cosas
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.5" data-path="162c1981435606b72dbec5478581b340/7dbc7ffe7dc99dfb83ad6e836135f8ee.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/7dbc7ffe7dc99dfb83ad6e836135f8ee.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                         Trabajando con repositorios remotos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.6" data-path="162c1981435606b72dbec5478581b340/f153f17b6f05606f7f7b24fcfcd40707.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/f153f17b6f05606f7f7b24fcfcd40707.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.6.</b>
+                        
+                         Creando etiquetas
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.7" data-path="162c1981435606b72dbec5478581b340/ae9bc53c910ef278746fa6a9dd8895f4.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/ae9bc53c910ef278746fa6a9dd8895f4.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.7.</b>
+                        
+                         Consejos y trucos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.8" data-path="162c1981435606b72dbec5478581b340/8332fbec31ac4a3cd9d819230e7a6087.html">
+            
+                
+                    <a href="../162c1981435606b72dbec5478581b340/8332fbec31ac4a3cd9d819230e7a6087.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.8.</b>
+                        
+                         Resumen
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8" data-path="1abe76a383535ee5843c843fe06d9665/README.html">
+            
+                
+                    <a href="../1abe76a383535ee5843c843fe06d9665/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                         Git y Otros Sistemas
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="8.1" data-path="1abe76a383535ee5843c843fe06d9665/2c431ba93e687dfe0892d33e890e3c57.html">
+            
+                
+                    <a href="../1abe76a383535ee5843c843fe06d9665/2c431ba93e687dfe0892d33e890e3c57.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                         Git y Subversion
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8.2" data-path="1abe76a383535ee5843c843fe06d9665/48eaa34756fa557b0f3b25f7f86518f6.html">
+            
+                
+                    <a href="../1abe76a383535ee5843c843fe06d9665/48eaa34756fa557b0f3b25f7f86518f6.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                         Migrating to Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8.3" data-path="1abe76a383535ee5843c843fe06d9665/290612199861c31d1036b185b4e69b75.html">
+            
+                
+                    <a href="../1abe76a383535ee5843c843fe06d9665/290612199861c31d1036b185b4e69b75.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.3.</b>
+                        
+                         Summary
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9" data-path="bce6a45b38c142a94895b4f4b14c8cb6/README.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                         Los entresijos internos de Git
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="9.1" data-path="bce6a45b38c142a94895b4f4b14c8cb6/7f73bbdecd5e25cc32ecf816b414b0ff.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/7f73bbdecd5e25cc32ecf816b414b0ff.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.1.</b>
+                        
+                         Fontaneria y porcelana
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.2" data-path="bce6a45b38c142a94895b4f4b14c8cb6/73829d23f74d76849ff567ae73aaf358.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/73829d23f74d76849ff567ae73aaf358.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.2.</b>
+                        
+                         Los objetos Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.3" data-path="bce6a45b38c142a94895b4f4b14c8cb6/c1aeb7c3348ca54b273f3605d7044397.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/c1aeb7c3348ca54b273f3605d7044397.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.3.</b>
+                        
+                         Referencias Git
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.4" data-path="bce6a45b38c142a94895b4f4b14c8cb6/abd16fde1aa82a42901427231f68a53c.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/abd16fde1aa82a42901427231f68a53c.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.4.</b>
+                        
+                         Archivos empaquetadores
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.5" data-path="bce6a45b38c142a94895b4f4b14c8cb6/316be49db19c9779bc201470161b2f45.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/316be49db19c9779bc201470161b2f45.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.5.</b>
+                        
+                         Las especificaciones para hacer referencia a...  (refspec)
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.6" data-path="bce6a45b38c142a94895b4f4b14c8cb6/b2731d321c255b6572fbac9554aace0a.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/b2731d321c255b6572fbac9554aace0a.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.6.</b>
+                        
+                         Protocolos de transferencia
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.7" data-path="bce6a45b38c142a94895b4f4b14c8cb6/06246fa787d4117c2fb80008eb60f278.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/06246fa787d4117c2fb80008eb60f278.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.7.</b>
+                        
+                         Mantenimiento y recuperación de datos
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="9.8" data-path="bce6a45b38c142a94895b4f4b14c8cb6/e077e39a407e64590a639bb8e5db7ac8.html">
+            
+                
+                    <a href="../bce6a45b38c142a94895b4f4b14c8cb6/e077e39a407e64590a639bb8e5db7ac8.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.8.</b>
+                        
+                         Recapitulación
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Learn Git</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_144">
+                    
+                        <h1 id="git-en-un-alojamiento-externo">Git en un alojamiento externo</h1>
+<p>Si no quieres realizar todo el trabajo de preparar tu propio servidor Git, tienes varias opciones para alojar tus proyectos Git en una ubicación externa dedicada. Esta forma de trabajar tiene varias ventajas: un alberge externo suele ser rápido de configurar y sencillo de iniciar proyectos en él; además de no ser necesario preocuparte de su mantenimiento ni de su monitorización. Incluso en el caso de que tengas tu propio servidor interno, puede resultar interesante utilizar también un lugar público; para albergar tu código abierto --normalmente, ahí suele ser más sencillo de localizar por parte de la comunidad--</p>
+<p>Actualmente tienes un gran número de opciones del alojamiento, cada una con sus ventajas y desventajas. Para obtener una lista actualizada, puedes mirar en la página GitHosting del wiki principal de Git:</p>
+<pre><code>https://git.wiki.kernel.org/index.php/GitHosting
+</code></pre><p>Por ser imposible el cubrir todos ellos, y porque da la casualidad de que trabajo en uno de ellos, concretamente, en esta sección veremos cómo crear una cuenta y nuevos proyectos albergados en &#39;GitHub&#39;. Así podrás hacerte una idea de cómo suelen funcionar estos alberges externos. </p>
+<p>GitHub es, de lejos, el mayor sitio de alberge público de proyectos Git de código abierto. Y es también uno de los pocos que ofrece asimismo opciones de alberge privado; de tal forma que puedes tener tanto tus proyectos de código abierto y como los de código comercial cerrado en un mismo emplazamiento. De hecho, nosotros utilizamos también GitHub para colaborar privadamente en este libro.</p>
+<h2 id="github">GitHub</h2>
+<p>GitHub es ligeramente distinto a otros sitios de alberge, en tanto en cuanto que contempla espacios de nombres para los proyectos. En lugar de estar focalizado en los proyectos, GitHub gira en torno a los usuarios. Esto significa que, cuando alojo mi proyecto &#39;grit&#39; en GitHub, no lo encontraras bajo &#39;github.com/grit&#39;, sino bajo &#39;github.com/schacon/grit&#39;. No existe una versión canónica de ningún proyecto, lo que permite a cualquiera de ellos ser movido facilmente de un usuario a otro en el caso de que el primer autor lo abandone.</p>
+<p>GitHub es también una compañia comercial, que cobra por las cuentas que tienen repositorios privados. Pero, para albergar proyectos públicos de código abierto, cualquiera puede crear una cuenta gratuita. Vamos a ver cómo hacerlo.</p>
+<h2 id="configurando-una-cuenta-de-usuario">Configurando una cuenta de usuario</h2>
+<p>El primer paso es dar de alta una cuenta gratuita. Si visitas la página de Precios e Inicio de Sesión, en &#39;<a href="http://github.com/plans" target="_blank">http://github.com/plans</a>&#39;, y clicas sobre el botón &quot;Registro&quot; (&quot;Sign Up&quot;) de las cuentas gratuitas, verás una página de registro:</p>
+<p><img src="http://git-scm.com/figures/18333fig0402-tn.png" alt=""></p>
+<p>Figura 4-2. La página de planes GitHub.</p>
+<p>En ella, has de elegir un nombre de usuario que esté libre, indicar una cuenta de correo electrónico y poner una contraseña.</p>
+<p><img src="http://git-scm.com/figures/18333fig0403-tn.png" alt=""></p>
+<p>Figura 4-3. El formulario de registro en GitHub.</p>
+<p>Si la tuvieras, es también un buen momento para añadir tu clave pública SSH. Veremos cómo generar una de estas claves, más adelante, en la sección &quot;Ajustes Simples&quot;. Pero, si ya tienes un par de claves SSH, puedes coger el contenido correspondiente a la clave pública y pegarlo en la caja de texto preparada para tal fin. El enlace &quot;explicar claves ssh&quot; (&quot;explain ssh keys&quot;) te llevará a unas detalladas instrucciones de cómo generarlas en la mayor parte de los principales sistemas operativos.
+Clicando sobre el botón de &quot;Estoy de acuerdo, registramé&quot; (&quot;I agree, sign me up&quot;), irás al panel de control de tu recién creado usuario.</p>
+<p><img src="http://git-scm.com/figures/18333fig0404-tn.png" alt=""></p>
+<p>Figura 4-4. El panel de control del usuario GitHub.</p>
+<p>A continuación, puedes crear nuevos repositorios. </p>
+<h2 id="creando-un-nuevo-repositrio">Creando un nuevo repositório</h2>
+<p>Puedes empezar clicando sobre el enlace &quot;crear uno nuevo&quot; (&quot;create a new one&quot;), en la zona &#39;Tus repositorios&#39; (&#39;Your Repositories&#39;) del panel de control. Irás al formulario de Crear un Nuevo Repositório (ver Figura 4-5).</p>
+<p><img src="http://git-scm.com/figures/18333fig0405-tn.png" alt=""></p>
+<p>Figura 4-5. Creando un nuevo repositório en GitHub.</p>
+<p>Es suficiente con dar un nombre al proyecto, pero también puedes añadirle una descripción. Cuando lo hayas escrito, clica sobre el botón &quot;Crear Repositório&quot; (&quot;Create Repository&quot;). Y ya tienes un nuevo repositório en GitHub (ver Figura 4-6)</p>
+<p><img src="http://git-scm.com/figures/18333fig0406-tn.png" alt=""></p>
+<p>Figura 4-6. Información de cabecera de un proyecto GitHub.</p>
+<p>Como aún no tienes código, GitHub mostrará instrucciones sobre cómo iniciar un nuevo proyecto, cómo enviar (push) un proyecto Git preexistente, o cómo importar un proyecto desde un repositório público Subversion (ver Figura 4-7).</p>
+<p><img src="http://git-scm.com/figures/18333fig0407-tn.png" alt=""></p>
+<p>Figura 4-7. Instrucciones para un nuevo repositório.</p>
+<p>Estas instrucciones son similares a las que ya hemos visto. Para inicializar un proyecto, no siendo aún un proyecto Git, sueles utilizar:</p>
+<pre><code>$ git init
+$ git add .
+$ git commit -m &#39;initial commit&#39;
+</code></pre><p>Una vez tengas un repositorio local Git, añadele el sitio GitHub como un remoto y envia (push) allí tu rama principal:</p>
+<pre><code>$ git remote add origin git@github.com:testinguser/iphone_project.git
+$ git push origin master
+</code></pre><p>Así, tu proyecto estará alojado en GitHub; y podrás dar su URL a cualquiera con quien desees compartirlo. En este ejemplo, la URL es <code>http://github.com/testinguser/iphone_project</code>. En la página de cabecera de cada uno de tus proyectos, podrás ver dos URLs (ver Figura 4-8).</p>
+<p><img src="http://git-scm.com/figures/18333fig0408-tn.png" alt=""></p>
+<p>Figura 4-8. Cabecera de proyecto, con una URL pública y otra URL privada.</p>
+<p>El enlace &quot;Public Clone URL&quot;, es un enlace público, de solo lectura; a través del cual cualquiera puede clonar el proyecto. Puedes comunicar libremente ese URL o puedes publicarlo en tu sitio web o en cualquier otro médio que desees.</p>
+<p>El enlace &quot;Your Clone URL&quot;, es un enlace de lectura/escritura basado en SSH; a través del cual puedes leer y escribir, pero solo si te conectas con la clave SSH privada correspondiente a la clave pública que has cargado para tu usuario. Cuando otros usuarios visiten la página del proyecto, no verán esta segunda URL --solo verán la URL pública--.</p>
+<h2 id="importacin-desde-subversion">Importación desde Subversion</h2>
+<p>Si tienes un proyecto público Subversion que deseas pasar a Git, GitHub suele poder realizar la importación. All fondo de la página de instrucciones, tienes un enlace &quot;Subversion import&quot;. Si clicas sobre dicho enlace, verás un formulario con información sobre el proceso de importación y un cuadro de texto donde puedes pegar la URL de tu proyecto Subversion (ver Figura 4-9).</p>
+<p><img src="http://git-scm.com/figures/18333fig0409-tn.png" alt=""></p>
+<p>Figura 4-9. El interface de importación desde Subversion.</p>
+<p>Si tu proyecto es muy grande, no-estandar o privado, es muy posible que no se pueda importar. En el capítulo 7, aprenderás cómo realizar importaciones manuales de proyectos complejos.</p>
+<h2 id="aadiendo-colaboradores">Añadiendo colaboradores</h2>
+<p>Vamos a añadir al resto del equipo. Si tanto John, como Josie, como Jessica, todos ellos registran sus respectivas cuentas en GitHub. Y deseas darles acceso de escritura a tu repositorio. Puedes incluirlos en tu proyecto como colaboradores. De esta forma, funcionarán los envios (push) desde sus respectivas claves públicas.</p>
+<p>Has de hacer clic sobre el botón &quot;edit&quot; en la cabecera del proyecto o en la pestaña Admin de la parte superior del proyecto; yendo así a la página de administración del proyecto GitHub.</p>
+<p><img src="http://git-scm.com/figures/18333fig0410-tn.png" alt=""></p>
+<p>Figura 4-10. Página de administración GitHub.</p>
+<p>Para dar acceso de escritura a otro usuario, clica sobre el enlace &quot;Add another collaborator&quot;. Aparecerá un cuadro de texto, donde podrás teclear un nombre. Según  tecleas, aparecerá un cuadro de ayuda, mostrando posibles nombres de usuario que encajen con lo tecleado. Cuando localices al usuario deseado, clica sobre el botón &quot;Add&quot; para añadirlo como colaborador en tu proyecto (ver Figura 4-11).</p>
+<p><img src="http://git-scm.com/figures/18333fig0411-tn.png" alt=""></p>
+<p>Figura 4-11. Añadirendo un colaborador a tu proyecto.</p>
+<p>Cuando termines de añadir colaboradores, podrás ver a todos ellos en la lista &quot;Repository Collaborators&quot; (ver Figura 4-12).</p>
+<p><img src="http://git-scm.com/figures/18333fig0412-tn.png" alt=""></p>
+<p>Figura 4-12. Lista de colaboradores en tu proyecto.</p>
+<p>Si deseas revocar el acceso a alguno de ellos, puedes clicar sobre el enlace &quot;revoke&quot;, y sus permisos de envio (push) serán revocados. En proyectos futuros, podras incluir también a tu grupo de colaboradores copiando los permisos desde otro proyecto ya existente.</p>
+<h2 id="tu-proyecto">Tu proyecto</h2>
+<p>Una vez hayas enviado (push) tu proyecto, o lo hayas importado desde Subversion, tendrás una página principal de proyecto tal como:</p>
+<p><img src="http://git-scm.com/figures/18333fig0413-tn.png" alt=""></p>
+<p>Figura 4-13. Una página principal de proyecto GitHub.</p>
+<p>Cuando la gente visite tu proyecto, verá esta página. Tiene pestañas que llevan a distintos aspectos del proyecto. La pestaña &quot;Commits&quot; muestra una lista de confirmaciones de cambio, en orden cronológico inverso, de forma similar a la salida del comando &#39;git log&#39;. La pestaña &quot;Network&quot; muestra una lista de toda la gente que ha bifurcado (forked) tu proyecto y ha contribuido a él. La pestaña &quot;Downloads&quot; permite cargar binarios del proyecto y enlaza con tarballs o versiones comprimidas de cualquier punto marcado (tagged) en tu proyecto. La pestaña &quot;Wiki&quot; enlaza con un espacio wiki donde puedes escribir documentación o cualquier otra información relevante sobre tu proyecto. La pestaña &quot;Graphs&quot; muestra diversas visualizaciones sobre contribuciones y estadísticas de tu proyecto. La pestaña principal &quot;Source&quot; en la que aterrizas cuando llegas al proyecto, muestra un listado de la carpeta principal; y muestra también el contenido del archivo README, si tienes uno en ella. Esta pestaña muestra también un cuadro con información sobre la última confirmación de cambio (commit) realizada en el proyecto.</p>
+<h2 id="bifurcando-proyectos">Bifurcando proyectos</h2>
+<p>Si deseas contribuir a un proyecto ya existente, en el que no tengas permisos de envio (push). GitHub recomienda bifurcar el proyecto. Cuando aterrizas en la página de un proyecto que te parece interesante y con el que deseas trastear un poco, puedes clicar sobre el botón &quot;fork&quot; de la cabecera del proyecto; de tal forma que GitHub haga una copia del proyecto a tu cuenta de usuario y puedas así enviar (push) cambios sobre él.</p>
+<p>De esta forma, los proyectos no han de preocuparse de añadir usuarios como colaboradores para darles acceso de envio (push). La gente puede bifurcar (fork) un proyecto y enviar (push) sobre su propia copia. El gestor del proyecto principal, puede recuperar (pull) esos cambios añadiendo las copias como remotos y fusionando (merge) el trabajo en ellas contenido.</p>
+<p>Para bifurcar un proyecto, visita su página (en el ejemplo, mojombo/chronic) y clica sobre el botón &quot;fork&quot; de su cabecera (ver Figura 4-14) </p>
+<p><img src="http://git-scm.com/figures/18333fig0414-tn.png" alt=""></p>
+<p>Figura 4-14. Obtener una copia sobre la que escribir, clicando sobre el botón &quot;fork&quot; de un repositorio.</p>
+<p>Tras unos segundos, serás redirigido a la página del nuevo proyecto; y en ella se verá que este proyecto es una bifuración (fork) de otro existente (ver Figura 4-15).</p>
+<p><img src="http://git-scm.com/figures/18333fig0415-tn.png" alt=""></p>
+<p>Figura 4-15. Tu bifurcación (fork) de un proyecto.</p>
+<h2 id="resumen-de-github">Resumen de GitHub</h2>
+<p>Esto es todo lo que vamos a ver aquí sobre GitHub, pero merece la pena destacar lo rápido que puedes hacer todo esto. Puedes crear una cuenta, añadir un nuevo proyecto y contribuir a él en cuestión de minutos. Si tu proyecto es de código abierto, puedes tener también una amplia comunidad de desarrolladores que podrán ver tu proyecto, bifurcarlo (fork) y ayudar contribuyendo a él. Y, por último, comentar que esta puede ser una buena manera de iniciarte y comenzar rápidamente a trabajar con Git.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../983eee8e25ebe992f9dea58c9467bbbd/97799e050b1f0381dcaf53617993dfbc.html" class="navigation navigation-prev " aria-label="Previous page: El demonio Git"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../983eee8e25ebe992f9dea58c9467bbbd/e077e39a407e64590a639bb8e5db7ac8.html" class="navigation navigation-next " aria-label="Next page: Recapitulación"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -2,6 +2,8 @@
 * [Deutsch](de)
 * [Español](es)
 * [Français](fr)
+* [漢語](zh-tw)
+* [中文](zh)
 
 <!--
 * [Português](pt-br)
